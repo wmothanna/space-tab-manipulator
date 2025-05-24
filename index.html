@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapce Tab Manipulator</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <main>
+        <div id="main">
+            <div id="space-tab-conflict-meme-container">
+                <img src="./assets//tab-pro.gif" alt="meme">
+            </div>
+            <div id="file-manipulation-form-container">
+                <form id="file-manipulation-form">
+                    <input type="file" name="src-file" id="src-file" required>
+                    <select name="operation" id="operation-select">
+                        <option value="space-to-tab">Space To Tab</option>
+                        <option value="tab-to-space">Tab To Space</option>
+                    </select>
+                    <input type="number" min="1" max="9" name="spaces-per-tab" placeholder="spaces per tab" required>
+                    <button type="submit">Convert</button>
+                </form>
+            </div>
+        </div>
+        <div id="memes">
+            <img src="./assets/tab-pro.png" alt="meme">
+            <img src="./assets/tab-space-conflict.gif" alt="meme">
+            <img src="./assets/space-pro.png" alt="meme">
+        </div>
+    </main>
+</body>
+<script src="./js/Core.js" type="module"></script>
+<script src="./js/UIManager.js" type="module"></script>
+<script src="./js/FileManipulator.js" type="module"></script>
+<script src="./js/Main.js" type="module"></script>
+</html>

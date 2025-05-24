@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    min-width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+#space-tab-conflict-meme-container{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#space-tab-conflict-meme-container img{
+    min-width: 300px;
+    width: 80%;
+}
+
+#file-manipulation-form-container{
+    display: flex;
+    justify-content: center;
+    min-width: 400px;
+    width: 50%;
+}
+
+#file-manipulation-form{
+    background: white;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#file-manipulation-form input, #file-manipulation-form select, #file-manipulation-form button{
+    padding: 10px;
+    border: none;
+    background-color: gainsboro;
+    color: black;
+    font-weight: 700;
+    font-size: large;
+    border-radius: 5px;
+}
+#file-manipulation-form button{
+    opacity: 80%;
+    background-color: black;
+    color: white;
+}
+
+#file-manipulation-form button:hover{
+    opacity: 100%;
+}
+#memes img{
+    width: 400px;
+    height: 300px;
+}
