@@ -14,7 +14,7 @@ To validate conversion use this command
 for exampe here i converted `dummy.c` spaces to tabs:
 hex before conversion:
 
-<img src="//images/with-spaces-screenshot.png" alt="validation screenshot" width="500" />
+<img src="/images/with-spaces-screenshot.png" alt="validation screenshot" width="500" />
 
 hex After conversion:
 
